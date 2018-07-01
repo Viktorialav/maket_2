@@ -1,0 +1,112 @@
+body {
+	background-color: #EBEBEB;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: black;
+}
+nav, .block {
+	width: 900px;
+	margin: 0 auto;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+li {
+	display: inline-block;
+	padding: 0;	
+}
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px 15px;
+	font-size: 15px;
+	margin-right: -4px;
+}
+.active, a:hover {
+	background-color: gray;
+}
+#wrapper {
+	width: 900px;
+	margin: 30px auto;
+	background-color: white;
+	padding: 15px 0;
+}
+#left {
+	float: left;
+	width: 150px;
+}
+#content {
+	margin: 0 150px;
+	text-align: justify;
+	min-height: 600px;
+}
+#right {
+	float: right;
+	width: 150px;
+}
+.clearfix {
+	clear: both;
+}
+#left p, #right p {
+	font-size: 10px;
+	text-align: justify;
+	margin-top: -5px;
+}
+.aside h4 {
+	margin: 0 0 10px;
+}
+.aside {
+	padding: 0 15px;
+}
+.aside img {
+	width: 100%;
+	margin-top: 10px;
+}
+#content h3 {
+	margin: 0;
+}
+#content p {
+	margin: 10px 0;
+	padding: 0;
+}
+#content img {
+	width: 540px;
+}
+footer {
+	background-color: black;
+}
+.block {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.sub_block {
+	width: 197px;
+	background-color: #EBEBEB;
+	text-align: center;
+	padding: 10px 10px 30px;
+}
+.sub_block h3 {
+	font-size: 14px;
+	margin: 0;
+}
+p, p .text {
+	font-size: 10px;
+	margin: 0;
+	padding: 5px 0;
+}
+.text {
+	border-bottom: 1px solid gray;
+}
+.copyright {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
